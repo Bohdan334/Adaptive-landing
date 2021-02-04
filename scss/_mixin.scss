@@ -1,0 +1,23 @@
+@mixin button($background-color, $padding) {
+  position: relative;
+  bottom: 0;
+  display: inline-block;
+  border-radius: 5px;
+  background-color: $background-color;
+  padding: $padding;
+  color: #ffffff;
+  font-size: 18px;
+  text-transform: uppercase;
+  letter-spacing: 0.27px;
+  transition: all 0.2s ease 0.2s;
+}
+
+@mixin line($background-color) {
+  position: relative;
+  left: 50%;
+  transform: translateX(-50%);
+  width: 87px;
+  height: 4px;
+  background-color: $background-color;
+  margin: 21px 0 23px;
+}
